@@ -199,7 +199,7 @@ enterprise-data-agent/
 - Node.js 20+
 - `uv` package manager: `pip install uv`
 - Google Cloud SDK with a project that has BigQuery, Vertex AI, and Docs API enabled
-- A BigQuery dataset with a `sales_table` table
+- A BigQuery dataset with a [`sales_table`](https://www.kaggle.com/datasets/shantanugarg274/sales-dataset/data) table
 
 ### 1. Clone and install
 
