@@ -214,13 +214,14 @@ uv sync
 Copy `.env.example` to `.env` and fill in your values:
 
 ```dotenv
+GEMINI_API_KEY=your-api-key
 GOOGLE_CLOUD_PROJECT=your-project-id
-GOOGLE_CLOUD_LOCATION=us-central1
+GOOGLE_CLOUD_LOCATION=server-location-of-your-project   # e.g. us-central1
 BIGQUERY_PROJECT_ID=your-project-id
-BIGQUERY_DATASET_ID=sales
-BIGQUERY_LOCATION=asia-east1
-GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/service-account.json
-GOOGLE_DOCS_CREDENTIALS_PATH=/path/to/your/oauth-credentials.json
+BIGQUERY_DATASET_ID=name-of-dataset
+BIGQUERY_LOCATION=server-location-of-your-dataset
+GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/service-account.json  # as saved on your on local machine
+GOOGLE_DOCS_CREDENTIALS_PATH=/path/to/your/oauth-credentials.json  # as saved on your on local machine
 TARGET_DRIVE_FOLDER_ID=your-google-drive-folder-id
 DEFAULT_MODEL=gemini-2.5-flash
 ```
