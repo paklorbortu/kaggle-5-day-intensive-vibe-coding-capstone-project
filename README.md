@@ -216,7 +216,7 @@ Copy `.env.example` to `.env` and fill in your values:
 ```dotenv
 GEMINI_API_KEY=your-api-key
 GOOGLE_CLOUD_PROJECT=your-project-id
-GOOGLE_CLOUD_LOCATION=server-location-of-your-project   # e.g. us-central1
+GOOGLE_CLOUD_LOCATION=vertex-ai-region   # e.g. us-central1
 BIGQUERY_PROJECT_ID=your-project-id
 BIGQUERY_DATASET_ID=name-of-dataset
 BIGQUERY_LOCATION=server-location-of-your-dataset
